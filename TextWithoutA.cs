@@ -10,14 +10,14 @@ class TextWithOutA
         do 
         {
             Console.Write("Type a text: ");
-            word = Console.ReadLine();
+            word = Console.ReadLine().ToUpper();
            
             askedLetter = true;
             
             foreach (char letter in word)
             {
-                Console.WriteLine(letter);
-                if((letter == 'a')||(letter == 'A'))
+                
+                if(letter == 'A')
                     askedLetter = false;
             }
         }
