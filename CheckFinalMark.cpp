@@ -9,7 +9,7 @@ int main()
     int increment = 0;
     int decrement = 0;
     
-    cout << "Welcome, enter  possitive numbers." << endl;
+    cout << "Welcome, enter  positive numbers." << endl;
     
         for(int i = 0; i < total; i++)
         {
@@ -18,7 +18,7 @@ int main()
             
             if(numbers[i] < 0)
                 {
-                    cout<< "Enter only possitive data." << endl;
+                    cout<< "Enter only positive data." << endl;
                     i--;
                 }
         } 
@@ -35,6 +35,7 @@ int main()
             }
             
         }
-        cout << "Increments " << increment << endl;
-        cout << "Decrements " << decrement << endl;
+        cout << "There has been " << increment << " increments  and " 
+         << decrement <<" decrements." << endl;
+        
 }
