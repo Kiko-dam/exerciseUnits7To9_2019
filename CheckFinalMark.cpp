@@ -1,3 +1,8 @@
+/*  Francisco Jiménez Velasco
+ * The program will ask the user to type 10 positive numbers (if the user types 
+ * a negative number it will go back to the last step) and after it will show if 
+ * there are any incremets or decrements  between the next number or before in 
+ * each case.*/
 #include <iostream>
 
 using namespace std;
